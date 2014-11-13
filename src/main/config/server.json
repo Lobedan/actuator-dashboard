@@ -1,0 +1,15 @@
+{
+    "ui": [
+      "http://mosaic4cap.de",
+      "http://mosaic4cap.de:81",
+      "http://mosaic4cap.de:82"
+    ],
+    "backend": [
+      "http://mosaic4cap.de:83",
+      "http://mosaic4cap.de:84"
+    ],
+    "services": [
+      "http://mosaic4cap.de:85",
+      "http://mosaic4cap.de:86"
+    ]
+  }
