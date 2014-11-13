@@ -19,7 +19,7 @@ import org.springframework.core.io.ResourceLoader;
  */
 public class ServerReader {
   private static final Logger LOGGER = Logger.getLogger(ServerReader.class);
-  private static final String FILE_NAME = "/config/server.json";
+  private static final String FILE_NAME = "classpath:/server.json";
 
   private ResourceLoader loader = new DefaultResourceLoader();
 

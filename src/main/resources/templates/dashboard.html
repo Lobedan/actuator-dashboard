@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.0/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/webjars/font-awesome/4.2.0/css/font-awesome.min.css}">
+</head>
+<body>
+<br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" th:each="ui : ${services.uiServices}">
+                <div class="panel panel-default">
+                	  <div class="panel-heading">
+                			<h3 class="panel-title" th:text="${ui}">Service Name</h3>
+                	  </div>
+                	  <div class="panel-body">
+                			Panel body
+                	  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
